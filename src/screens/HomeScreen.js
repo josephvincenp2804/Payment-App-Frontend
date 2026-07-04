@@ -14,6 +14,7 @@ import { theme } from '../styles/theme';
 import CustomerCard from '../components/CustomerCard';
 import LoadingIndicator from '../components/LoadingIndicator';
 import { Ionicons } from '@expo/vector-icons';
+import { useFocusEffect } from '@react-navigation/native';
 
 export default function HomeScreen({ navigation }) {
   const [customers, setCustomers] = useState([]);
@@ -39,9 +40,11 @@ export default function HomeScreen({ navigation }) {
     }
   };
 
-  useEffect(() => {
-    fetchCustomers();
-  }, []);
+  useFocusEffect(
+    useCallback(() => {
+      fetchCustomers(false); // Silently refresh data in background when screen focuses
+    }, [])
+  );
 
   const onRefresh = useCallback(() => {
     setRefreshing(true);
