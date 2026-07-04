@@ -7,6 +7,19 @@ import PaymentScreen from './src/screens/PaymentScreen';
 import SuccessScreen from './src/screens/SuccessScreen';
 import HistoryScreen from './src/screens/HistoryScreen';
 import { theme } from './src/styles/theme';
+import { Platform } from 'react-native';
+
+if (Platform.OS === 'web') {
+  const style = document.createElement('style');
+  style.textContent = `
+    html, body, #root {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+  `;
+  document.head.appendChild(style);
+}
 
 const Stack = createStackNavigator();
 
