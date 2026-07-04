@@ -84,7 +84,7 @@ While this repository contains the mobile source code, we use **Expo Web Export*
 ## 5. Screenshots
 
 ### AWS EC2 Server
-![AWS EC2 Dashboard](docs/screenshots/aws-dashboard.png)
+![AWS EC2 Dashboard](docs/screenshots/aws-dashboard.png).
 
 ### Application UI
 **Home Screen:**
