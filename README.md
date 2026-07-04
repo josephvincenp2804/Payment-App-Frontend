@@ -31,7 +31,7 @@ This is the **React Native Expo** frontend application for the Payment Collectio
    - Create a `.env` file in the root directory.
    - Add the backend API URL:
      ```
-     EXPO_PUBLIC_API_URL=http://13.60.11.46
+     EXPO_PUBLIC_API_URL=http://13.60.11.46/api
      ```
 
 ---
