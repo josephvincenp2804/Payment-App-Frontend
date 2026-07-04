@@ -78,3 +78,20 @@ While this repository contains the mobile source code, we use **Expo Web Export*
    ```
 4. **Nginx Reverse Proxy:** Nginx is installed on the EC2 instance to serve the static frontend files generated in the `dist` folder directly to port 80.
 5. **Live URL:** The frontend is successfully accessible via the public IPv4 address: `http://13.60.11.46/`
+
+---
+
+## 5. Screenshots
+
+### AWS EC2 Server
+![AWS EC2 Dashboard](docs/screenshots/aws-dashboard.png)
+
+### Application UI
+**Home Screen:**
+![Home Screen](docs/screenshots/home.png)
+
+**Payment Screen:**
+![Payment Screen](docs/screenshots/payment.png)
+
+**Success Screen:**
+![Success Screen](docs/screenshots/success.png)
