@@ -5,8 +5,8 @@ This is the **React Native Expo** frontend application for the Payment Collectio
 ## Features
 - **Responsive UI:** Works seamlessly on Android, iOS, and Web.
 - **Loan Details:** Displays Account Number, Issue Date, Interest Rate, Tenure, and EMI Due.
-- **Payment Processing:** Allows customers to enter their EMI amount and submit payments.
-- **Success Acknowledgment:** Clear visual confirmation upon successful EMI payment.
+- **Payment Processing Form:** Includes a dedicated form allowing customers to manually enter their account number, enter the EMI amount to be paid, and securely submit the payment.
+- **Success Acknowledgment:** Displays a clear visual confirmation and reference number upon successful EMI payment.
 
 ---
 
